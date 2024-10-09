@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    color: #FFF5EE;
+    color: #2cb857;
     background-image: url('images/background1.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -19,7 +19,7 @@ body {
     left: 0;
     width: 100%;
     text-align: center; /* Center the text inside the header */
-    color: #FFF5EE; /* Coral color for header */
+    color: #2cb857; /* Coral color for header */
     padding: 10px 0;
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
     z-index: 1000; /* Ensure the header is above other elements */
