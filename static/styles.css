@@ -43,7 +43,7 @@ blockquote {
     font-size: 1.2em;
     margin-top: 20px;
     display: inline-block; /* Make it an inline block to center it */
-    text-align: center; /* Align the text within the block to the center */
+    text-align: left; /* Align the text within the block to the center */
 }
 
 #birthday-video {
