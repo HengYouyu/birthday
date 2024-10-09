@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: fuchsia;
+    background-image: url('images/background1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.top-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center; /* Center the text inside the header */
+    color: fuchsia; /* Coral color for header */
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    z-index: 1000; /* Ensure the header is above other elements */
+}
+
+.message {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 60px; /* Ensure there's space for the header */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Center all text in the message section */
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-top: 20px;
+    display: inline-block; /* Make it an inline block to center it */
+    text-align: center; /* Align the text within the block to the center */
+}
+
+#birthday-video {
+    display: block;
+    margin: 0 auto; /* Center the video horizontally */
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
